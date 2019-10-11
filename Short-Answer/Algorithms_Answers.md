@@ -12,4 +12,8 @@ c)
 
 ## Exercise II
 
-
+for building in buildings
+if floor>=  f
+break egg
+else
+do nothing to the egg
