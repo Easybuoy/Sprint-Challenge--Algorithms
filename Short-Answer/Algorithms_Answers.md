@@ -18,11 +18,18 @@ b)
 Runtime complexity = O(n^2)
 
 c)
+1 -> O(c)
+2 -> O(c)
+3 -> O(c + n)
+Runtime complexity = O(n)
 
 ## Exercise II
+set current floor to 0
+throw egg
+if egg does not break 
+increment current floor
+throw egg
+if egg breaks 
+return current floor
 
-for building in buildings
-if floor>=  f
-break egg
-else
-do nothing to the egg
+Runtime complexity = O(n)
