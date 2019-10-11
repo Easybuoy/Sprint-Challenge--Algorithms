@@ -8,12 +8,12 @@ Your function must utilize recursion. It cannot contain any loops.
 def count_th(word, count=0, index=0):
     count = 0
     index = 0
-    # Convert word to array
 
     def countWord(word, count, index):
+        # Convert word to array
         splitWord = list(word)
-        print(index, len(list(word)))
         if (index < len(list(word)) - 1):
+            # Check if combined word at index and index+1 is equal to th
             if (splitWord[index] + splitWord[index+1] == 'th'):
                 count += 1
                 index += 1
