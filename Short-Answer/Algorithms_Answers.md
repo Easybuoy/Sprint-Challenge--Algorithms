@@ -24,12 +24,13 @@ c)
 Runtime complexity = O(n)
 
 ## Exercise II
-set current floor to 0
-throw egg
-if egg does not break 
-increment current floor
-throw egg
-if egg breaks 
-return current floor
+Get number of floors => n
+Get middle of floors => n / 2
+Throw egg on middle floor
+if egg breaks, move down and throw egg again 
+return last floor the egg breaks
+
+if egg does not break, go up and throw egg
+return the floor the egg breaks
 
 Runtime complexity = O(n)
